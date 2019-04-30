@@ -2,9 +2,9 @@
   <div id="app">
     {{count}}
     
-    {{$store.getters.doubleCount}}
+    <!-- {{$store.getters.doubleCount}} -->
     <button @click="$store.commit('increment', 2)">count++</button>
-    <button @click="$store.dispatch('increment', 2)">count++</button>
+    <!-- <button @click="$store.dispatch('increment', 2)">count++</button> -->
 
   </div>
 </template>
